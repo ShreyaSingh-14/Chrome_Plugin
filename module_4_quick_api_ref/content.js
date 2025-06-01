@@ -1,10 +1,9 @@
-// Popover API https://chromestatus.com/feature/5463833265045504
-
 (async () => {
-  const nav = document.querySelector('.upper-tabs > nav');
-
+  // Sends a message to the service worker and receives a tip in response
   const { tip } = await chrome.runtime.sendMessage({ greeting: 'tip' });
 
+  const nav = document.querySelector('.upper-tabs > nav');
+  
   const tipWidget = createDomElement(`
     <button type="button" popovertarget="tip-popover" popovertargetaction="show" style="padding: 0 12px; height: 36px;">
       <span style="display: block; font: var(--devsite-link-font,500 14px/20px var(--devsite-primary-font-family));">Tip</span>
