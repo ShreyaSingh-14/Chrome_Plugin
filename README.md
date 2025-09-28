@@ -6,8 +6,7 @@ A Chrome extension designed to integrate with the Data Analytics Platform (DAP) 
 
 ## Features
 
-- **Quick Access**: Open DAP dashboards and reports without navigating away from your current tab.  
-- **Real-time Notifications**: Get alerts for important analytics events.  
+- **Quick Access**: Open DAP dashboards and reports without navigating away from your current tab. 
 - **Data Insights**: Preview key metrics and KPIs from your DAP account.  
 - **Customizable Settings**: Configure notifications, themes, and dashboard shortcuts.
 
