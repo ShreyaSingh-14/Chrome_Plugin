@@ -12,8 +12,3 @@ A Chrome extension designed to integrate with the Data Analytics Platform (DAP) 
 
 ---
 
-## Installation
-
-1. **Clone or Download the Repository**  
-   ```bash
-   git clone https://github.com/yourusername/dap-chrome-extension.git
